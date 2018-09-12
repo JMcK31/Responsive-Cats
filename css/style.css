@@ -5,6 +5,19 @@ body  {
     margin: 0 auto;
 }
 
+/* .title-image  {
+    background-image: url(https://www.hartz.com/wp-content/uploads/revslider/cat-page-hero/Cat_Category_Header_Image.png);
+    background-size: cover;
+} */
+
+.title {
+    font-size: 1.75em;
+    font-weight: 700;
+    position: absolute;
+    top: 66px;
+    left: 20px;
+    color: floralwhite;
+}
 
 .header {
     color: turquoise;
@@ -34,20 +47,32 @@ body  {
 
 
 @media (min-width: 576px) {
-    ...
+    .title {
+        font-size: 2.5rem;
+        top: 102px;
+        left: 78px;
+    }
 }
 
-// Medium devices (tablets, 768px and up)
+/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    ...
+    .title {
+        font-size: 3rem;
+        top: 123px;
+        left: 101px;
+    }
 }
 
-// Large devices (desktops, 992px and up)
+/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    ...
+   .title {
+       font-size: 4rem;
+       top: 125px;
+       left: 105px;
+   }
 }
 
-// Extra large devices (large desktops, 1200px and up)
+/* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    ...
+    
 }
