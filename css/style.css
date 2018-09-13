@@ -1,7 +1,8 @@
 body  {
-    background: url(images/paper.jpg),lightblue !important;
+    background: beige;
     background-size: cover;
     box-sizing: border-box;
+    font-family: 'McClaren', Chewy, Helvetica, sans-serif;
     margin: 0 auto;
 }
 
@@ -9,6 +10,17 @@ body  {
     background-image: url(https://www.hartz.com/wp-content/uploads/revslider/cat-page-hero/Cat_Category_Header_Image.png);
     background-size: cover;
 } */
+
+p, 
+p.lead,
+.nav-link,
+.jumbotron {
+    color: turquoise;
+}
+
+.jumbotron  {
+    background-color: beige;
+}
 
 header  {
     display: block;
@@ -32,7 +44,7 @@ header  {
 }
 
 .header {
-    color: turquoise;
+    color: beige;
 }
 
 .container  {

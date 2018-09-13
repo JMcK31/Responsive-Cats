@@ -3,7 +3,7 @@ $('#myModal').on('shown.bs.modal', function () {
 })
 
 
-const pressed = [];
+const pressed = []; 
 const secretCode = 'meow';
 const audio = document.getElementById('myAudio');
 window.addEventListener('keyup', (e) => {
