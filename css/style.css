@@ -26,9 +26,9 @@ header  {
     font-size: 1.75em;
     font-weight: 700;
     position: absolute;
-    top: 66px;
+    top: 86px;
     left: 20px;
-    color: floralwhite;
+    color: turquoise;
 }
 
 .header {
@@ -64,6 +64,7 @@ img  {
         font-size: 2.5rem;
         top: 102px;
         left: 78px;
+        color: floralwhite;
     }
 }
 
@@ -73,6 +74,7 @@ img  {
         font-size: 3rem;
         top: 123px;
         left: 101px;
+        color: floralwhite;
     }
 }
 
@@ -82,6 +84,7 @@ img  {
        font-size: 4rem;
        top: 125px;
        left: 105px;
+       color: floralwhite;
    }
 }
 
